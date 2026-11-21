@@ -1,0 +1,43 @@
+.note-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    min-height: 130px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 0;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+.note-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.note-card h3 {
+  font-size: 17px;
+  color: #1e293b;
+  margin-top: 0;
+}
+
+.note-card p {
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.6;
+  overflow: hidden;
+  max-height: 9.6em;
+    overflow-y: auto;
+}
+.note-card button{
+  border: 1px solid #1e293b;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  margin-left: 6px;
+}
+.btn{
+  margin-top: auto;
+  align-self: flex-end;
+}

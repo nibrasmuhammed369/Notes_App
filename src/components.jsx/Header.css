@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white;
+}
+.header h1 {
+  font-size: 26px;
+  color: #1e293b;
+  margin: 0;
+}
+.new-note-btn {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: #2563eb;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.new-note-btn:hover {
+  background-color: #1d4ed8;
+}
